@@ -62,11 +62,14 @@ nav a{
 /* header related style */
 .header{
     background-color: #FFF8F3;
-    background-image: url(/img/header_bg.png);
+    background-image: url(/img/header_bg.png), url('/img/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
+.icon-color{
+    color: white;
+}
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
